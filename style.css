@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightgrey;
+}
+
+header{
+    background-color: white;
+    height: 100px;
+    padding-left: 40px;
+    padding-top: 15px;
+}
+
+.titolo{
+    font-size: 50px;
+}
+
+main{
+    margin-top: 50px;
+    margin-inline: 20%;
+    background-color: white;
+}
+
+section{
+    height: 40px;
+    padding: 10px;
+}
+
+button{
+    background-color: lightblue;
+}
+
