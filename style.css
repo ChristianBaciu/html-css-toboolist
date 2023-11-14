@@ -2,7 +2,6 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-
 }
 
 body{
@@ -18,39 +17,61 @@ header{
 
 .titolo{
     font-size: 50px;
-    padding-bottom: 100px;
+}
+
+.contenitore{
+    margin-top: 50px;
+    margin-inline: 20%;
+
 }
 
 main{
-    margin-top: 50px;
-    padding: 20px;
-    margin-inline: 20%;
+    padding-top: 20px;
     background-color: white;
     border-radius: 5px 5px 0px 0px ;
+}
+
+footer{
+    margin-top: 5px;
+    background-color: white;
+    border-radius: 0px 0px 5px 5px;
 
 }
 
+
+
 nav{
     height: 40px;
-    padding: 10px;
     padding-left: 40px;
 }
 
 section{
-    margin-top: 30px;
     padding: 20px;
 
 }
 
 .bottone{
+    padding: 5px;
     background-color: lightblue;
     border-radius: 5px 5px 5px 5px;
-    border: 2px solid blue;
-}
+  }
 
 .bottone-disattivato{
+    padding: 5px;
     border-radius: 5px 5px 5px 5px;
     border: 2px solid grey;
+    color: grey;
 
 }
 
+div{
+    padding: 5px;
+}
+
+
+#pulsante{
+    padding: 5px;
+    background-color: green;
+    border-radius: 20px 20px 20px 20px;
+    font-size: 10px;
+}
