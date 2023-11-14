@@ -5,14 +5,13 @@
 }
 
 body{
-    background-color: lightgrey;
+    background-color: #f6f8f9;
 }
 
 header{
     background-color: white;
-    height: 100px;
-    padding-left: 40px;
-    padding-top: 15px;
+    padding-left: 20px;
+    padding-top: 10px;
 }
 
 .titolo{
@@ -22,27 +21,40 @@ header{
 .contenitore{
     margin-top: 50px;
     margin-inline: 20%;
-
 }
 
 main{
     padding-top: 20px;
     background-color: white;
-    border-radius: 5px 5px 0px 0px ;
+    border-radius: 10px 10px 0px 0px ;
+    font-size: 10px;
+}
+
+nav{
+    height: 30px;
+    padding-left: 40px;
+}
+
+.bottone{
+    padding: 5px;
+    border-radius: 5px 5px 5px 5px;
+    background-color: #47adf1;
+    border: 2px solid #47adf1;
+    color: white;
+  }
+
+.bottone-disattivato{
+    padding: 5px;
+    border-radius: 5px 5px 5px 5px;
+    border: 2px solid #cfd4d8;
+    color: #cfd4d8;
 }
 
 footer{
+    padding: 20px;
     margin-top: 5px;
     background-color: white;
-    border-radius: 0px 0px 5px 5px;
-
-}
-
-
-
-nav{
-    height: 40px;
-    padding-left: 40px;
+    border-radius: 0px 0px 10px 10px;
 }
 
 section{
@@ -50,24 +62,21 @@ section{
 
 }
 
-.bottone{
-    padding: 5px;
-    background-color: lightblue;
-    border-radius: 5px 5px 5px 5px;
-  }
-
-.bottone-disattivato{
-    padding: 5px;
-    border-radius: 5px 5px 5px 5px;
-    border: 2px solid grey;
-    color: grey;
-
-}
-
 div{
-    padding: 5px;
+    padding-top: 10px;
 }
 
+.verde{
+    border: 1px solid green;
+    color: green;
+    border-radius: 50% ;
+}
+
+.rosso{
+    border: 1px solid red;
+    color: red;
+    border-radius: 50% ;
+}
 
 #pulsante{
     padding: 5px;
