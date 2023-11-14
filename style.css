@@ -15,7 +15,7 @@ header{
 }
 
 .titolo{
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .contenitore{
@@ -63,7 +63,7 @@ section{
 }
 
 div{
-    padding-top: 10px;
+    padding-top: 15px;
 }
 
 .verde{
@@ -78,9 +78,45 @@ div{
     border-radius: 50% ;
 }
 
-#pulsante{
+.pulsanteblu{
     padding: 5px;
-    background-color: green;
+    background-color: #45abea;
     border-radius: 20px 20px 20px 20px;
     font-size: 10px;
 }
+
+.pulsanteviola{
+    padding: 5px;
+    background-color: #9c72e4;
+    border-radius: 20px 20px 20px 20px;
+    font-size: 10px;
+}
+
+.pulsanteverde{
+    padding: 5px;
+    background-color: #64c0a9;
+    border-radius: 20px 20px 20px 20px;
+    font-size: 10px;
+}
+
+.pulsantearancione{
+    padding: 5px;
+    background-color: #f29e33;
+    border-radius: 20px 20px 20px 20px;
+    font-size: 10px;
+}
+
+.pulsanterosa{
+    padding: 5px;
+    background-color: #d863a1;
+    border-radius: 20px 20px 20px 20px;
+    font-size: 10px;
+}
+
+.pulsantelime{
+    padding: 5px;
+    background-color: #b0c926;
+    border-radius: 20px 20px 20px 20px;
+    font-size: 10px;
+}
+
