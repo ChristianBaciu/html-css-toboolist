@@ -25,6 +25,7 @@ header{
 
 main{
     padding-top: 20px;
+    padding-left: 40px;
     background-color: white;
     border-radius: 10px 10px 0px 0px ;
     font-size: 10px;
@@ -32,7 +33,6 @@ main{
 
 nav{
     height: 30px;
-    padding-left: 40px;
 }
 
 .bottone{
@@ -70,15 +70,17 @@ div{
 }
 
 .verde{
-    border: 1px solid green;
-    color: green;
-    border-radius: 50% ;
+    padding-inline: 4px;
+    border: 1px solid #61bea6;
+    color: #61bea6;
+    border-radius: 50%;
 }
 
 .rosso{
-    border: 1px solid red;
-    color: red;
-    border-radius: 50% ;
+    padding-inline: 4px;
+    border: 1px solid #e7372f;
+    color: #e7372f;
+    border-radius: 50%;
 }
 
 .pulsanteblu{
