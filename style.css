@@ -1,3 +1,4 @@
+/*  */
 *{
     margin: 0;
     box-sizing: border-box;
@@ -9,9 +10,8 @@ body{
 }
 
 header{
+    padding: 10px;
     background-color: white;
-    padding-left: 20px;
-    padding-top: 10px;
 }
 
 .titolo{
@@ -19,7 +19,7 @@ header{
 }
 
 .contenitore{
-    margin-top: 50px;
+    margin-top: 30px;
     margin-inline: 20%;
 }
 
@@ -41,7 +41,7 @@ nav{
     background-color: #47adf1;
     border: 2px solid #47adf1;
     color: white;
-  }
+}
 
 .bottone-disattivato{
     padding: 5px;
@@ -59,11 +59,14 @@ footer{
 
 section{
     padding: 20px;
-
 }
 
 div{
     padding-top: 15px;
+}
+
+#freccia{
+    height: 10px;
 }
 
 .verde{
@@ -81,42 +84,47 @@ div{
 .pulsanteblu{
     padding: 5px;
     background-color: #45abea;
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 10px 10px 10px 10px;
     font-size: 10px;
+    color: white;
 }
 
 .pulsanteviola{
     padding: 5px;
     background-color: #9c72e4;
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 10px 10px 10px 10px;
     font-size: 10px;
+    color: white;
 }
 
 .pulsanteverde{
     padding: 5px;
     background-color: #64c0a9;
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 10px 10px 10px 10px;
     font-size: 10px;
+    color: white;
 }
 
 .pulsantearancione{
     padding: 5px;
     background-color: #f29e33;
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 10px 10px 10px 10px;
     font-size: 10px;
+    color: white;
 }
 
 .pulsanterosa{
     padding: 5px;
     background-color: #d863a1;
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 10px 10px 10px 10px;
     font-size: 10px;
+    color: white;
 }
 
 .pulsantelime{
     padding: 5px;
     background-color: #b0c926;
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 10px 10px 10px 10px;
     font-size: 10px;
+    color: white;
 }
-
